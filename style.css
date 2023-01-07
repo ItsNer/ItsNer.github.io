@@ -1,0 +1,237 @@
+*,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: white;
+}
+
+/*Text content*/
+.text1 {
+	position: absolute;
+	left: 164px;
+	right: 700px;
+	top: 250px;
+	bottom: 622px;
+
+	font-family: 'Georama';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 57px;
+
+}
+
+.paragraph {
+	position: absolute;
+	width: 497px;
+	height: 66px;
+	left: 165px;
+	top: 418px;
+
+	font-family: 'Forum';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 33px;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+
+nav {
+  height: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+.img-content img{
+	height: 1000px;
+	width: auto;
+	transform: rotate(270deg);
+	position: absolute;
+	width: 400px;
+	height: 500px;
+	left: 900px;
+	top: 170px;
+}
+
+/*lihat produk button*/
+.div-border {
+	background-color: #535353;
+	position: absolute;
+	width: 250px;
+	height: 42px;
+	left: 165px;
+	top: 512px;
+	border-radius: 10px;
+}
+
+/*box shadow*/
+.div-border {
+	box-shadow: 15px 8px 12px 0px rgba(0,0,0,0.50);
+	-webkit-box-shadow: 15px 8px 12px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 15px 8px 12px 0px rgba(0,0,0,0.50);
+}
+
+.div-border h1 {
+	position: absolute;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 19px;
+	color: white;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.tentang h2{
+	text-align: center;
+	margin-top: 600px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  margin-top: 20px;
+}
+
+.border-biodata{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 20px;	
+}
+.product {
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 10px 8px 12px 0px rgba(0,0,0,0.25);
+  padding: 20px;
+  text-align: center;
+  top: 20px;
+}
+
+.product img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.product h3 {
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.product p {
+  margin-top: 3px;
+  font-size: 14px;
+  color: #888;
+}
+
+.andre {
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 10px 8px 12px 0px rgba(0,0,0,0.25);
+  padding: 20px;
+  text-align: center;
+  top: 20px;
+  margin-left: 250px;
+}
+
+.andre img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.andre h3 {
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.andre p {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #888;
+}
+
+.agung {
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 10px 8px 12px 0px rgba(0,0,0,0.25);
+  padding: 20px;
+  text-align: center;
+  top: 20px;
+  margin-right: 250px;
+}
+
+.agung img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.agung h3 {
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.agung p {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #888;
+}
+
+footer {
+  margin-top: 5px;
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 1080px){
+	header{
+		width: 2000px;
+	}
+	nav{
+		width: 2000px;
+	}	
+}

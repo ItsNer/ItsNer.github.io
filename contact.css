@@ -1,0 +1,142 @@
+*,
+html{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+
+nav {
+  height: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+.tentang h2{
+  text-align: center;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  margin-top: 20px;
+}
+
+.border-biodata{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 20px;	
+}
+.product {
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 10px 8px 12px 0px rgba(0,0,0,0.25);
+  padding: 20px;
+  text-align: center;
+  top: 20px;
+}
+
+.product img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.product h3 {
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.product p {
+  margin-top: 3px;
+  font-size: 14px;
+  color: #888;
+}
+
+.andre {
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 10px 8px 12px 0px rgba(0,0,0,0.25);
+  padding: 20px;
+  text-align: center;
+  top: 20px;
+  margin-left: 250px;
+}
+
+.andre img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.andre h3 {
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.andre p {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #888;
+}
+
+.agung {
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 10px 8px 12px 0px rgba(0,0,0,0.25);
+  padding: 20px;
+  text-align: center;
+  top: 20px;
+  margin-right: 250px;
+}
+
+.agung img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.agung h3 {
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.agung p {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #888;
+}
