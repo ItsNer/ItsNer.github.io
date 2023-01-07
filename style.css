@@ -231,7 +231,137 @@ footer {
 	header{
 		width: 2000px;
 	}
+
 	nav{
 		width: 2000px;
-	}	
+	}
+
+  footer{
+    width: 1700px;
+    text-align: center;
+  }
+
+  .text1{
+    font-size: 90px;
+  }
+
+  .paragraph{
+    position: absolute;
+    width: 550px;
+    height: 66px;
+    left: 165px;
+    top: 418px;    
+    font-size: 40px;
+  }
+
+  .div-border {
+    background-color: #535353;
+    position: absolute;
+    width: 270px;
+    height: 62px;
+    left: 165px;
+    top: 512px;
+    border-radius: 10px;
+  }
+
+  .tentang h2{
+    margin-left: 700px;
+  }
+
+  .products {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 20px;
+  margin-left: 350px;
+  }
+
+  .product {
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 10px 8px 12px 0px rgba(0,0,0,0.25);
+  padding: 20px;
+  text-align: center;
+  top: 20px;
+  }
+
+  .product img {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 100%;
+  }
+
+  .product h3 {
+    margin-top: 25px;
+    font-size: 18px;
+  }
+
+  .product p {
+    margin-top: 3px;
+    font-size: 14px;
+    color: #888;
+  }
+
+  .border-biodata{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    margin-top: 20px;
+  }
+
+  .andre {
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 10px 8px 12px 0px rgba(0,0,0,0.25);
+  padding: 20px;
+  text-align: center;
+  top: 20px; 
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.andre img {
+  width: 1000px;
+  height: 1000px;
+  border-radius: 100%;
+}
+
+.andre h3 {
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.andre p {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #888;
+}
+
+ .agung {
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 10px 8px 12px 0px rgba(0,0,0,0.25);
+  padding: 20px;
+  text-align: center;
+  top: 20px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.agung img {
+  width: 1000px;
+  height: 1000px;
+  border-radius: 100%;
+}
+
+.agung h3 {
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.agung p {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #888;
+}
+
 }
